@@ -1,0 +1,158 @@
+body{
+	font-family:Arial, Sant-Serif;
+	font-size: 100%;
+	background-color: #F2D7EE;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+header{
+	padding: 50px 0;
+	background-color: #D3BCC0;
+}
+h1,h2{
+	color: #69306D;
+	text-align: center;
+}
+nav{
+	background-color: #A5668B;
+	border-color: #69306D;
+	border-style: solid;
+	min-height: 64px;
+}
+nav li{
+	float: left;
+	width: 100px;
+}
+nav a{
+	display: block;
+	color: #0E103D;
+	line-height: 4em;
+	font-weight: bold;
+	text-align: center;
+}
+nav li a:hover{
+	color: #F2D7EE;
+	background-color: #0E103D;
+}
+p{
+	font-size: 16px;
+	line-height: 1.3;
+	margin-top: 0.1em;
+	margin-bottom: 0;
+	color: #0E103D;
+}
+footer{
+	background-color: #D3BCC0;
+	color: #D3BCC0;
+	padding: 20px 0;
+	margin-top: 30px;
+}
+.img-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.inline-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.img-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.img-container li {
+    margin: 5px;
+}
+
+.img-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.inline-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.img-container img,
+.inline-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.img-container img:hover,
+.inline-img img:hover {
+    transform: scale(1.1);
+}
+.multimedia{
+	overflow: auto;
+	text-align: center;
+}
+.multimedia-video{
+	display:infine-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 25%;
+	box-sizing: border-box;
+	margin: 20px auto;
+}
+.login-form {
+    float: right;
+    margin-top: 10px;
+}
+
+.login-form input {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid gray;
+}
+
+.login-form input[type="submit"] {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: darkgreen;
+}
+.comment-form {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.comment-form input,
+.comment-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+
+.comment-form input[type="submit"] {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.comment-form input[type="submit"]:hover {
+    background-color: darkgreen;
+}
